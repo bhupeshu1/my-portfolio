@@ -10,6 +10,7 @@ import OrderSummary from './pages/OrderSummary';
 import Products from './pages/Products';
 import NewFile from './pages/NewFile';
 import Features from './pages/Features';
+import Footer from './components/Footer';
 // import ColorFillBox from '../src/ColorFillBox';
 
 const App = () => {
@@ -28,6 +29,7 @@ const App = () => {
         <Route path='/projects' element={<Projects />}>
           Projects
         </Route>
+        <Route path='/footer' element={<Footer/>}/>
         <Route path='/contact' element={<Contact />}></Route>
         <Route path='order-summary' element={<OrderSummary />}></Route>
         <Route path='product' element={<Products />}>

@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import Footer from '../components/Footer';
 
 const AboutSection = () => {
   const [counter, setCounter] = useState(0);
@@ -86,7 +87,9 @@ const AboutSection = () => {
             <p className='text-black hidden'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, dolor accusantium. </p>
           </div>
         </div>
+        
       </div>
+      <Footer/>
     </>
   );
 };

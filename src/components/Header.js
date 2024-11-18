@@ -23,8 +23,8 @@ const Header = () => {
     <header
       className={`fixed top-0 left-0 w-full z-20 flex justify-between h-20 items-center p-4 transition duration-[600ms] box-border ${
         isSticky
-          ? 'bg-[#23272ff2] bg-opacity-90 shadow-lg py-3'
-          : 'bg-[#2a3f5c] py-4 mb-4'
+          ? 'bg-[#2a3f5c] bg-opacity-90 shadow-lg py-3'
+          : 'bg-[#23272ff2] py-4 mb-4'
       }`}
     >
       <div className='text-2xl font-bold'>
